@@ -1,0 +1,12 @@
+Test execution note
+===================
+
+The project is configured to run with:
+
+Linux/macOS:
+  ./mvnw clean test
+
+Windows:
+  mvnw.cmd clean test
+
+This source archive was assembled with the complete implementation and automated tests. The build could not be executed in the preparation environment because Maven dependencies could not be downloaded (the environment has no external network access). Please run the command above locally before submission and replace this file with the actual Maven test output.
